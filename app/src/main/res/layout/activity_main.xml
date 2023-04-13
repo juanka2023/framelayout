@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <FrameLayout
@@ -19,11 +20,11 @@
             android:onClick="ocultar"
             android:text="@string/boton" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/tv1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="visible"
-            tools:srcCompat="@tools:sample/avatars" />
+            app:srcCompat="@drawable/ic_launcher_background" />
+
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
